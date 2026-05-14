@@ -11,11 +11,10 @@
   Console Firebase → Configurações do Projeto → Seus apps → SDK
   ============================================================ -->
 <!-- Firebase SDK (versão modular via CDN compat) -->
-<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-storage-compat.js"></script>
-
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-storage-compat.js"></script>
 
 
 <style>
@@ -1134,16 +1133,15 @@ async function carregarProdutosDoFirebase() {
   Substitua pelos valores do seu projeto!
   Console → Configurações → Seus apps
 ────────────────────────────────────── */
-const firebaseConfig = {
-  apiKey: "AIzaSyB5TaU3CfRgR2U15re_oAr0Z4WYbgrVL1A",
-  authDomain: "eclat-parfums.firebaseapp.com",
-  projectId: "eclat-parfums",
-  storageBucket: "eclat-parfums.appspot.com",
-  messagingSenderId: "189990230677",
-  appId: "1:189990230677:web:34d8c691d38ff14ee1999c",
-  measurementId: "G-CX36YSJPN3"
-};
-
+  const firebaseConfig = {
+    apiKey: "AIzaSyB5TaU3CfgR62UI5re_oArOZ4WYbgrVL1A",
+    authDomain: "eclat-parfums.firebaseapp.com",
+    projectId: "eclat-parfums",
+    storageBucket: "eclat-parfums.firebasestorage.app",
+    messagingSenderId: "189990230677",
+    appId: "1:189990230677:web:34d8c691d38ff14ee1999c",
+    measurementId: "G-CX36YSJPN3"
+  };
 /* ─────────────────────────────────────
   INICIALIZAR FIREBASE
 ────────────────────────────────────── */
